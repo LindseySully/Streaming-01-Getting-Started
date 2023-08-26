@@ -85,4 +85,4 @@ Do a search on the extension to learn more. VS Code suggestions are usually help
 --
 ## Module Notes:
 1. If the python script does not run it is best to check the default directory by utilizing the os library.
-Suggestion: Use the OS library and os.chdir(path) - this allows to set the default directory and add the absolute path
+- Suggestion: Use the OS library and os.chdir(path) - this allows to set the default directory and add the absolute path
