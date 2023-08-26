@@ -16,7 +16,9 @@ Use logging, very helpful when working with batch and streaming processes.
 
 import csv
 import logging
+import os
 
+os.chdir('C:\\Users\\linds\\Desktop\\44671-80\\Module 01\\streaming-01-getting-started') # changes working directory to the correct child path vs. the default folder in python
 # Set up basic configuration for logging
 
 logging.basicConfig(
@@ -26,7 +28,7 @@ logging.basicConfig(
 
 # Declare program constants (typically constants are named with ALL_CAPS)
 
-INPUT_FILE_NAME = "batchfile_0_farenheit.csv"
+INPUT_FILE_NAME = 'batchfile_0_farenheit.csv'
 OUTPUT_FILE_NAME = "batchfile_1_celcius.csv"
 
 # Define program functions (bits of reusable code)

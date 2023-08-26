@@ -1,5 +1,6 @@
 # streaming-01-getting-started
-
+## Student Name: Lindsey Sullivan
+## GitHub Link: https://github.com/LindseySully/streaming-01-getting-started
 > Get started with Python for streaming analytics
 
 Set yourself up for productivity and collaboration.
@@ -22,8 +23,6 @@ Remember:
 ## Verify Installations / Update Default Python
 
 In VS Code, open a terminal window (View / Terminal).
-If macOS/Linux, change `python` to `python3` in the commands below.
-
 ```shell
 git --version
 python --version
@@ -40,40 +39,12 @@ With your repo folder open in VS Code:
 1. If not, click on the bottom status bar where it should show the Python version or might say "Select Python Interpreter".
 1. From the dropdown, choose your default Python version.
 1. In VS Code, open a terminal window (View / Terminal).
-1. If macOS/Linux, change `python` to `python3` below.
 
 ```shell
 python util_about.py
 ```
 ---
-
-
-## Explore & Execute Project Scripts
-
-With your repo folder open in VS Code, start exploring.
-Open, read, and run each project script (each file will have a .py extension) in order.
-You don't need to fully understand the code yet. 
-Instead, try to figure out what each file is doing.
-
-When you finish, you'll have an idea of some things possible using just the Python standard library. 
-You'll have generated several new data files.
-The streaming process will run continuously for quite a while. 
-Read the comments in the file to learn how to stop the process.
-
-## Update Edit README
-
-Edit this README.md file. It uses Markdown, a simple and easy markup language.
-
-- Keep the prerequisites and task headings. 
-- Within the task headings, keep only the commands that worked on YOUR machine. 
-- Remove unnecessary instructions once you've mastered them.
-- Add any additional notes that will help you in the future.
-
 ## Sync to GitHub
-
-Now it's time to get the local work you did on your machine, 
-back up to your cloud repo in GitHub.
-
 
 ### Option A: Use VS Code (Easy!)
 
@@ -93,22 +64,6 @@ just enter your message in the top line of the file it shows in the editor.
 Then click the checkmark in the upper right to close that file and save your commit message.
 "Sync your changes" to push to GitHub. 
 
-### Option B: Use Git Bash or Terminal Commands (Easy as well):
-
-Open a new `Git Bash` or Terminal window. Run the following commands one at a time.
-They will first add all the files (add "dot"). 
-Then they will commit the changes with a message. 
-Finally, they will push the changes up to GitHub.
-
-```
-git add .
-git commit -m "initial results"
-git push origin main
-```
-
-
------
-
 ## General Recommendations and Troubleshooting
 
 The following are general recommendations and troubleshooting tips.
@@ -126,3 +81,8 @@ Do a search on the extension to learn more. VS Code suggestions are usually help
 
 1. For more information about Git in VS Code, see [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview).
 1. For more information about editing Markdown in VS Code, see [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown).
+
+--
+## Module Notes:
+1. If the python script does not run it is best to check the default directory by utilizing the os library.
+Suggestion: Use the OS library and os.chdir(path) - this allows to set the default directory and add the absolute path
